@@ -296,6 +296,7 @@ transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
 }
 #portfolio img:hover {
 	opacity: 0.9;
+	transform: scale(0.8,0.8);
 }
 /* price section */
 #price {
@@ -482,4 +483,9 @@ footer .copyright a {
 	-moz-column-width: 100%;
 	column-width: 100%;
 	}
-	}
+}
+
+.portfolio-title {
+	padding-left: 30px;
+	padding-right: 30px;
+}
